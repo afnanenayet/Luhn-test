@@ -23,6 +23,7 @@ bool luhn_test(int card_number)//verify mastercard
 
 	for (int i = 1; i < card_reverse.size; i=+2) { //doubling the even digits
 		int n = 0; //this is the position for the vector
+		n++;
 		even_digits.at(n) = (card_reverse.at(i) * 2);
 	}
 
