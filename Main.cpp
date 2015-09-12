@@ -9,7 +9,7 @@ int main() {
 	int cc_number;
 	cout << "Credit card validator.";
 	cout << "\nPlease select the vendor: ";
-	cout << "\n1: Mastercard" << "\n2: Visa" << "\n3: something idgaf" << "\n";
+	cout << "\n1: Mastercard" << "\n2: Visa" << "\n3: TODO" << "\n";
 	cin >> card_choice;
 	cout << "\nType in your credit card number" << "\n";
 	cin >>  cc_number;
@@ -24,7 +24,7 @@ int main() {
 		break;
 
 	case 3:
-		//do some more shit
+		//TODO
 		break;
 
 	}
